@@ -9,6 +9,7 @@ SET GLOBAL validate_password.length = 6;
 SET GLOBAL validate_password.number_count = 0;
 FLUSH PRIVILEGES;
 
+
 DROP DATABASE IF EXISTS dzrt_db;
 DROP user IF EXISTS 'dzrt'@localhost;
 create database IF NOT EXISTS dzrt_db;
