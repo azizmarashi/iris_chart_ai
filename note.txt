@@ -1,6 +1,7 @@
 venv\Scripts\activate
 deactivate
 
+pip install pipreqs -ErrorAction SilentlyContinue; pipreqs . --force --scan-notebooks
 pip install pipreqs
 pipreqs . --force --scan-notebooks
 pip install -r requirements.txt
